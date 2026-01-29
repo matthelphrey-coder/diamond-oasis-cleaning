@@ -1,12 +1,12 @@
 import reviews from "@/data/reviews.json";
 
 export default function Testimonials() {
-  // Find Ashley B. review
-  const ashleyReview = reviews.reviews.find(
-    (review) => review.author === "Ashley B."
+  // Find Erin B. review
+  const erinReview = reviews.reviews.find(
+    (review) => review.author === "Erin B."
   );
 
-  if (!ashleyReview) {
+  if (!erinReview) {
     return null;
   }
 
@@ -17,10 +17,10 @@ export default function Testimonials() {
           {/* Testimonial Quote */}
           <blockquote>
             <p className="text-2xl lg:text-3xl font-heading italic text-primary leading-relaxed mb-6">
-              &ldquo;{ashleyReview.text}&rdquo;
+              &ldquo;{erinReview.text}&rdquo;
             </p>
             <footer className="text-lg text-text-secondary font-medium">
-              &mdash; {ashleyReview.author}
+              &mdash; {erinReview.author}
             </footer>
           </blockquote>
         </div>

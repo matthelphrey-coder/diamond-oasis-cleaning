@@ -2,16 +2,16 @@
 
 export default function InlineEstimateForm() {
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-6 min-h-[500px]">
-      <h2 className="text-xl font-heading font-bold text-primary mb-4">
+    <div className="bg-white rounded-2xl shadow-xl p-4">
+      <h2 className="text-xl font-heading font-bold text-primary mb-2">
         Get a FREE Estimate
       </h2>
-      <div className="min-h-[450px]">
+      <div>
         <iframe
           src="https://api.leadconnectorhq.com/widget/form/jjqVGQG6yKAgawF12waP"
           style={{
             width: "100%",
-            height: "450px",
+            height: "350px",
             border: "none",
             borderRadius: "3px",
           }}
@@ -21,7 +21,7 @@ export default function InlineEstimateForm() {
           data-activation-type="alwaysActivated"
           data-deactivation-type="neverDeactivate"
           data-form-name="Contact Information"
-          data-height="450"
+          data-height="350"
           data-form-id="jjqVGQG6yKAgawF12waP"
           title="Contact Information Form"
         />
