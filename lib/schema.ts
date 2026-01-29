@@ -66,3 +66,30 @@ export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
     })),
   };
 }
+
+/**
+ * FAQ item interface for schema generation
+ */
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+/**
+ * Generate FAQPage schema from an array of FAQ items
+ * https://developers.google.com/search/docs/appearance/structured-data/faqpage
+ */
+export function generateFAQSchema(faqs: FAQItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
