@@ -56,6 +56,8 @@ Recent decisions affecting current work:
 - Hero image preloaded with priority={true} for LCP (03-01)
 - Server components for static sections, client for forms (03-01)
 - Center-aligned guarantee cards with icon above text for marketing pages (04-01)
+- Vertical timeline with numbered circles and connecting lines for process steps (04-02)
+- Category cards with icon headers and bulleted lists for tips (04-02)
 - Headless UI Disclosure for FAQ accordion (04-03)
 
 ### Pending Todos
