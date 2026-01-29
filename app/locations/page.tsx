@@ -6,9 +6,12 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 import locations from "@/data/locations.json";
 
 export const metadata: Metadata = {
-  title: "Locations | House Cleaning Las Vegas | Diamond Oasis Cleaning",
+  title: "Locations Las Vegas Valley",
   description:
-    "Find Diamond Oasis Cleaning locations across Las Vegas Valley. 8 locations serving Henderson, Summerlin, and all Las Vegas areas. Call for free estimate!",
+    "Find Diamond Oasis Cleaning locations across Las Vegas Valley. 8 locations serving Henderson, Summerlin, and all areas. Call for your free estimate!",
+  alternates: {
+    canonical: "/locations",
+  },
 };
 
 const breadcrumbs = [

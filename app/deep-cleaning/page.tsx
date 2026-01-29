@@ -9,9 +9,12 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Deep Cleaning Services Las Vegas | Diamond Oasis Cleaning",
+  title: "Deep Cleaning Las Vegas",
   description:
-    "Professional deep cleaning services in Las Vegas. Thorough, detailed cleaning for your home. Licensed cleaners. Book your deep clean today!",
+    "Professional deep cleaning services in Las Vegas. Thorough and detailed cleaning for your entire home. Licensed cleaners. Book your deep clean today!",
+  alternates: {
+    canonical: "/deep-cleaning",
+  },
 };
 
 const breadcrumbs = [

@@ -5,9 +5,12 @@ import ContactForm from "@/components/contact/ContactForm";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Contact Diamond Oasis Cleaning | Las Vegas House Cleaning",
+  title: "Contact Us",
   description:
-    "Contact Diamond Oasis Cleaning for house cleaning services in Las Vegas. Call (725) 502-2820 or fill out our contact form for a free estimate.",
+    "Contact Diamond Oasis Cleaning for house cleaning in Las Vegas. Call (725) 502-2820 or fill out our contact form to get your free estimate today!",
+  alternates: {
+    canonical: "/contact-us",
+  },
 };
 
 const breadcrumbs = [

@@ -4,9 +4,12 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Why Choose Diamond Oasis Cleaning | Professional Cleaning Services",
+  title: "Why Choose Us",
   description:
-    "Discover why Las Vegas homeowners trust Diamond Oasis Cleaning. Professional staff, comprehensive services, and customer-first approach.",
+    "Discover why Las Vegas homeowners trust Diamond Oasis Cleaning. Professional staff, comprehensive services, and a customer-first approach every visit.",
+  alternates: {
+    canonical: "/why-choose-us",
+  },
 };
 
 const breadcrumbs = [

@@ -9,9 +9,12 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Move-In Move-Out Cleaning Las Vegas | Diamond Oasis Cleaning",
+  title: "Move-In Move-Out Cleaning",
   description:
-    "Professional move-in and move-out cleaning in Las Vegas. Get your deposit back! Thorough cleaning for tenants and landlords. Free estimates.",
+    "Professional move-in and move-out cleaning in Las Vegas. Get your deposit back with thorough cleaning for tenants and landlords. Free estimates available.",
+  alternates: {
+    canonical: "/move-in-move-out-cleaning",
+  },
 };
 
 const breadcrumbs = [

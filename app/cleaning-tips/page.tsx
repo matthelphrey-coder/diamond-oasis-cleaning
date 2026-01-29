@@ -6,9 +6,12 @@ import TipsGrid from "@/components/tips/TipsGrid";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Cleaning Tips | Diamond Oasis Cleaning Las Vegas",
+  title: "Cleaning Tips",
   description:
-    "Expert cleaning tips from Diamond Oasis Cleaning. Daily tidying techniques, kitchen and bathroom care, and seasonal cleaning advice for your Las Vegas home.",
+    "Expert cleaning tips from Diamond Oasis Cleaning. Daily tidying techniques, kitchen and bathroom care, and seasonal cleaning advice for Las Vegas homes.",
+  alternates: {
+    canonical: "/cleaning-tips",
+  },
 };
 
 const breadcrumbItems = [

@@ -6,9 +6,12 @@ import TestimonialsGrid from "@/components/about/TestimonialsGrid";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "About Diamond Oasis Cleaning | Las Vegas House Cleaning",
+  title: "About Us",
   description:
-    "Learn about Diamond Oasis Cleaning, your trusted Las Vegas house cleaning service. Satisfaction guaranteed with eco-friendly products.",
+    "Learn about Diamond Oasis Cleaning, your trusted Las Vegas house cleaning service. We use eco-friendly products and guarantee your satisfaction every time.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const breadcrumbs = [

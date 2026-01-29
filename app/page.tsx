@@ -9,7 +9,7 @@ import Testimonials from "@/components/home/Testimonials";
 export const metadata: Metadata = {
   title: "House Cleaning Las Vegas | Diamond Oasis Cleaning",
   description:
-    "Professional house cleaning services in Las Vegas. Residential cleaning, deep cleaning, move-in/move-out services. Licensed & bonded cleaners. Get a FREE estimate today!",
+    "Professional house cleaning services in Las Vegas. Residential, deep cleaning, and move-in/out services. Licensed cleaners. Get a free estimate!",
 };
 
 export default function HomePage() {

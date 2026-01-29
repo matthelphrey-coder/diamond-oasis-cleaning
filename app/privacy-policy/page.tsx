@@ -4,9 +4,12 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Diamond Oasis Cleaning",
+  title: "Privacy Policy",
   description:
-    "Read Diamond Oasis Cleaning's privacy policy. Learn how we collect, use, and protect your personal information.",
+    "Read Diamond Oasis Cleaning's privacy policy. Learn how we collect, use, and protect your personal information when you use our cleaning services.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 const breadcrumbs = [

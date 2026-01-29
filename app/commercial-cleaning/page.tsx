@@ -18,9 +18,12 @@ import {
 } from "@heroicons/react/24/outline";
 
 export const metadata: Metadata = {
-  title: "Commercial Cleaning Services Las Vegas | Diamond Oasis Cleaning",
+  title: "Commercial Cleaning Las Vegas",
   description:
-    "Professional commercial cleaning services in Las Vegas. Office cleaning, retail cleaning, and business janitorial services. Licensed & insured. Get a free quote!",
+    "Professional commercial cleaning services in Las Vegas. Office and retail cleaning, business janitorial services. Licensed and insured. Free quote today!",
+  alternates: {
+    canonical: "/commercial-cleaning",
+  },
 };
 
 const breadcrumbs = [

@@ -7,9 +7,12 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import FAQAccordion from "@/components/faqs/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | Diamond Oasis Cleaning",
+  title: "FAQs",
   description:
-    "Find answers to common questions about our Las Vegas cleaning services, pricing, scheduling, and policies. Get the information you need quickly.",
+    "Find answers to common questions about our Las Vegas cleaning services, pricing, scheduling, and policies. Get the information you need quickly today.",
+  alternates: {
+    canonical: "/faqs",
+  },
 };
 
 export default function FAQsPage() {

@@ -6,9 +6,12 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 import services from "@/data/services.json";
 
 export const metadata: Metadata = {
-  title: "Cleaning Services Las Vegas | Diamond Oasis Cleaning",
+  title: "Cleaning Services Las Vegas",
   description:
-    "Explore Diamond Oasis Cleaning's services: residential cleaning, commercial cleaning, deep cleaning, move-in/move-out cleaning, and more in Las Vegas.",
+    "Explore Diamond Oasis Cleaning services: residential, commercial, deep cleaning, and move-in/out services in Las Vegas. Get your free estimate today!",
+  alternates: {
+    canonical: "/services",
+  },
 };
 
 const breadcrumbs = [

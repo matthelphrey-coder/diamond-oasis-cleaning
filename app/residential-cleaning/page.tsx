@@ -9,9 +9,12 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Residential House Cleaning Las Vegas | Diamond Oasis Cleaning",
+  title: "Residential Cleaning Las Vegas",
   description:
-    "Professional residential cleaning in Las Vegas. Weekly, bi-weekly, monthly house cleaning. Licensed & bonded cleaners. Get your free estimate today!",
+    "Professional residential cleaning in Las Vegas. Weekly, bi-weekly, and monthly house cleaning. Licensed and bonded cleaners. Get a free estimate today!",
+  alternates: {
+    canonical: "/residential-cleaning",
+  },
 };
 
 const breadcrumbs = [

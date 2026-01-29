@@ -5,9 +5,12 @@ import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Book House Cleaning Las Vegas | Diamond Oasis Cleaning",
+  title: "Book Cleaning Las Vegas",
   description:
-    "Book your house cleaning in Las Vegas online. Easy scheduling for residential cleaning, deep cleaning, and move-in/move-out services.",
+    "Book your house cleaning in Las Vegas online. Easy scheduling for residential cleaning, deep cleaning, and move-in/out services. Start booking today!",
+  alternates: {
+    canonical: "/booking",
+  },
 };
 
 const breadcrumbs = [

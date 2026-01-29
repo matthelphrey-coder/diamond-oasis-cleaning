@@ -9,9 +9,12 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Additional Cleaning Services Las Vegas | Diamond Oasis Cleaning",
+  title: "Additional Services",
   description:
-    "Explore our additional cleaning services in Las Vegas. Oven cleaning, refrigerator cleaning, window cleaning, and more. Customize your clean!",
+    "Explore our additional cleaning services in Las Vegas. Oven cleaning, refrigerator cleaning, window cleaning, and more. Customize your cleaning today!",
+  alternates: {
+    canonical: "/additional-services",
+  },
 };
 
 const breadcrumbs = [

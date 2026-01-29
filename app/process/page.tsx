@@ -6,9 +6,12 @@ import ProcessSteps from "@/components/process/ProcessSteps";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Our Cleaning Process | Diamond Oasis Cleaning Las Vegas",
+  title: "Our Cleaning Process",
   description:
-    "Learn about Diamond Oasis Cleaning's professional 5-step cleaning process. From booking to final walkthrough, see how we deliver spotless results.",
+    "Learn about Diamond Oasis Cleaning's 5-step cleaning process. From booking to final walkthrough, see how we deliver spotless results every single time.",
+  alternates: {
+    canonical: "/process",
+  },
 };
 
 const breadcrumbItems = [

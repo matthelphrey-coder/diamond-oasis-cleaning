@@ -5,9 +5,12 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | Diamond Oasis Cleaning",
+  title: "Terms and Conditions",
   description:
-    "Review the terms and conditions for using Diamond Oasis Cleaning services and website.",
+    "Review the terms and conditions for using Diamond Oasis Cleaning services and website. Understand your rights and our policies before booking today.",
+  alternates: {
+    canonical: "/terms-and-conditions",
+  },
 };
 
 const breadcrumbs = [
