@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Infrastructure** - Project setup, data files, Tailwind configuration
 - [x] **Phase 2: Global Components** - Header, footer, sticky CTA, modal, breadcrumbs, schema
 - [x] **Phase 3: Home Page** - Hero with inline form, services overview, testimonials
-- [ ] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
+- [x] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
 - [ ] **Phase 5: Service Pages** - All service pages with checklists and schema
 - [ ] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
 - [ ] **Phase 7: Location Pages** - Locations hub and 8 individual location pages
@@ -82,9 +82,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md - About page with guarantees/testimonials, Why Choose Us page with service offerings
-- [ ] 04-02-PLAN.md - Process page with step-by-step timeline, Cleaning Tips page with categorized tips
-- [ ] 04-03-PLAN.md - FAQs page with Headless UI accordion and FAQPage schema
+- [x] 04-01-PLAN.md - About page with guarantees/testimonials, Why Choose Us page with service offerings
+- [x] 04-02-PLAN.md - Process page with step-by-step timeline, Cleaning Tips page with categorized tips
+- [x] 04-03-PLAN.md - FAQs page with Headless UI accordion and FAQPage schema
 
 ### Phase 5: Service Pages
 **Goal**: Service pages describe offerings with detailed checklists and proper schema
@@ -157,7 +157,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 1. Infrastructure | 1/1 | ✓ Complete | 2026-01-28 |
 | 2. Global Components | 2/2 | ✓ Complete | 2026-01-28 |
 | 3. Home Page | 1/1 | ✓ Complete | 2026-01-28 |
-| 4. About Section | 0/3 | Ready to execute | - |
+| 4. About Section | 3/3 | ✓ Complete | 2026-01-29 |
 | 5. Service Pages | 0/2 | Not started | - |
 | 6. Utility Pages | 0/1 | Not started | - |
 | 7. Location Pages | 0/1 | Not started | - |
@@ -165,4 +165,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 4 planned (3 plans)*
+*Last updated: 2026-01-29 — Phase 4 complete (3/3 plans)*
