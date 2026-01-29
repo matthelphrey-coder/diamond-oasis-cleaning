@@ -33,10 +33,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Data files (locations.json, services.json, faqs.json, reviews.json) are importable and contain valid JSON
   4. Root layout renders without errors and includes analytics placeholders
   5. File structure matches FRAMEWORK.md specification
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: Project initialization and configuration
+- [ ] 01-01-PLAN.md - Initialize Next.js 14 project with Tailwind brand config and all data files
 
 ### Phase 2: Global Components
 **Goal**: Reusable components are ready for use across all pages
