@@ -1,0 +1,39 @@
+{
+  "services": [
+    {
+      "id": "residential-cleaning",
+      "name": "Residential Cleaning",
+      "slug": "residential-cleaning",
+      "description": "Transform your living space into a pristine haven with our residential cleaning services. We offer flexible scheduling to accommodate your busy life.",
+      "href": "/residential-cleaning"
+    },
+    {
+      "id": "commercial-cleaning",
+      "name": "Commercial Cleaning",
+      "slug": "commercial-cleaning",
+      "description": "Professional cleaning services for offices, retail spaces, and businesses throughout Las Vegas. Customized plans to fit your schedule and budget.",
+      "href": "/commercial-cleaning"
+    },
+    {
+      "id": "deep-cleaning",
+      "name": "Deep Cleaning",
+      "slug": "deep-cleaning",
+      "description": "Deep Cleaning is a specialty cleaning that is recommended before residential cleaning is done. Thorough, detailed cleaning for your entire home.",
+      "href": "/deep-cleaning"
+    },
+    {
+      "id": "move-in-move-out-cleaning",
+      "name": "Move-In/Move-Out Cleaning",
+      "slug": "move-in-move-out-cleaning",
+      "description": "Make moving a smoother, cleaner experience whether you're settling in or moving on.",
+      "href": "/move-in-move-out-cleaning"
+    },
+    {
+      "id": "additional-services",
+      "name": "Additional Services",
+      "slug": "additional-services",
+      "description": "Beyond our regular cleaning packages, we offer a range of detailed cleaning services to give your home a fresh, thorough touch.",
+      "href": "/additional-services"
+    }
+  ]
+}

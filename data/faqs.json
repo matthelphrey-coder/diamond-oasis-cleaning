@@ -1,0 +1,84 @@
+{
+  "faqs": [
+    {
+      "id": "1",
+      "question": "Cost of your cleaning services?",
+      "answer": "The cost of cleaning services depend on what is needed and the square footage of your home. If you have further question please contact us."
+    },
+    {
+      "id": "2",
+      "question": "Do I have to be home for my cleaning services?",
+      "answer": "It's entirely your choice. If you won't be present at home, kindly inform us about the method to enter your residence by updating the details in your customer dashboard."
+    },
+    {
+      "id": "3",
+      "question": "Does someone have to visit my home and do a walk through before booking?",
+      "answer": "Absolutely not! We completely understand your concern and assure you that we respect your privacy. You may conveniently obtain a quote and schedule your cleaning online within a span of just one minute. Our prices are dependent on the services needed and the size of your home."
+    },
+    {
+      "id": "4",
+      "question": "Can I get same day cleaning?",
+      "answer": "We cannot guarantee same day cleaning, if not available at day of booking we will contact you and communicate. Same day cleaning depends on the schedules of our cleaners. On slow days it is possible."
+    },
+    {
+      "id": "5",
+      "question": "Are cleaning supplies included?",
+      "answer": "We come equipped with all the necessary cleaning supplies and equipment, so you don't need to worry about providing anything."
+    },
+    {
+      "id": "6",
+      "question": "What type of cleaning services do you offer?",
+      "answer": "We offer a range of home cleaning services including residential cleaning, commercial cleaning, deep cleaning, move-in/move-out cleaning, and additional specialty services."
+    },
+    {
+      "id": "7",
+      "question": "What if I am not satisfied with the cleaning services?",
+      "answer": "Please get in touch with us right away and we'll make arrangements to re clean. Rest assured, we do a great job and we leave your house only after you've approved the cleaning."
+    },
+    {
+      "id": "8",
+      "question": "Are your cleaners Screened?",
+      "answer": "Yes, absolutely. Our cleaners undergo a thorough screening process, which encompasses police background checks, reference verification, and face-to-face interviews. Furthermore, we also require significant experience in residential house cleaning to work with us."
+    },
+    {
+      "id": "9",
+      "question": "Are your cleaners insured?",
+      "answer": "Every single of our cleaners have liability insurance."
+    },
+    {
+      "id": "10",
+      "question": "Do you have any cleaning packages?",
+      "answer": "We do not have cleaning packages as your home is unique. Our cleaning services depend on what is needed to clean and what you the homeowner would like. If you need specific cleaning needs please get in touch with the local offices we will get back to you as soon as possible."
+    },
+    {
+      "id": "11",
+      "question": "Do cleaners arrive at the time my cleaning services are booked?",
+      "answer": "The majority of instances our cleaners are punctual. We do permit a 60-minute window to account for traffic, accidents and weather conditions. In cases where your cleaner is delayed, you will be informed about their estimated time of arrival."
+    },
+    {
+      "id": "12",
+      "question": "When will my credit card/debit card will be charged?",
+      "answer": "Your card on file will not be charged until after the cleaning service has been completed. This is done to guarantee your utmost satisfaction with the services provided by your cleaner(s)."
+    },
+    {
+      "id": "13",
+      "question": "Is there a cancellation fee?",
+      "answer": "There is a cancellation fee of 10% if you cancel your cleaning 12 hours before the cleaning takes place. If you need to cancel or reschedule please give us a call we will help you with both."
+    },
+    {
+      "id": "14",
+      "question": "Will we get a notification?",
+      "answer": "Yes, you will get a notification 24 hours before the cleaning takes place and an hour prior as well."
+    },
+    {
+      "id": "15",
+      "question": "What is included in a standard Cleaning?",
+      "answer": "A standard cleaning offers your essential cleaning, mopping, making the beds, vacuum, dusting, cleaning the living space, bedrooms, bathrooms. If this is your first time booking a deep clean is necessary."
+    },
+    {
+      "id": "16",
+      "question": "How many cleaners will be dispatched?",
+      "answer": "A single or double cleaners will be dispatched to your residence depending on what needs to be done. For those with a recurring schedule, we will make every effort to consistently pair you with the same individual in the future."
+    }
+  ]
+}
