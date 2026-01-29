@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { montserrat, openSans } from "@/lib/fonts";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import StickyCtaButton from "@/components/ui/StickyCtaButton";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -51,7 +54,10 @@ export default function RootLayout({
         )}
       </head>
       <body className="font-body bg-background text-text-primary">
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
+        <StickyCtaButton />
       </body>
     </html>
   );
