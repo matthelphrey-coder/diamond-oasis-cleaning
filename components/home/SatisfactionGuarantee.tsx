@@ -13,9 +13,9 @@ const guarantees = [
   },
   {
     icon: CurrencyDollarIcon,
-    title: "Love it, or Money Back",
+    title: "We'll Make It Right",
     description:
-      "If you're not completely satisfied with the cleaning we've provided, simply let us know within 24 hours. We'll either re-clean your space or offer you a full refund.",
+      "If you're not completely satisfied with the cleaning we've provided, simply let us know within 24 hours. We'll re-clean your space and work with you to resolve any issues.",
   },
   {
     icon: ClipboardDocumentCheckIcon,

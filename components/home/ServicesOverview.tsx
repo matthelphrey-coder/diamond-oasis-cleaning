@@ -21,16 +21,48 @@ export default function ServicesOverview() {
     <section className="py-16 lg:py-24 bg-background-alt">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-4xl mx-auto mb-12">
           <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
             House Cleaning Services You Can See And Feel
           </h2>
-          <p className="text-text-secondary text-lg leading-relaxed">
-            At Diamond Oasis Cleaning, we understand that your time is valuable,
-            and we&apos;re here to give it back to you. Whether you&apos;ve
-            booked a specialty cleaning or a regular routine service, we treat
-            your home with the utmost care and respect.
-          </p>
+          <div className="space-y-4 text-text-secondary text-lg leading-relaxed">
+            <p>
+              At Diamond Oasis Cleaning, we understand that your time is valuable,
+              and we&apos;re here to give it back to you.
+            </p>
+            <p>
+              Whether you&apos;ve booked a specialty cleaning or a regular routine
+              service, we treat your home with the utmost care and respect.
+            </p>
+            <p>
+              We pride ourselves on our professional team of cleaners. Each of our
+              employees is thoroughly vetted, interviewed, and trained to ensure
+              they have the experience and dedication needed to deliver outstanding
+              results. We only hire licensed and bonded professionals who bring
+              years of expertise to every job.
+            </p>
+            <p>
+              When you choose Diamond Oasis Cleaners, you can trust that your space
+              will be cleaned by reliable, skilled professionals who treat every
+              job with the care it deserves.
+            </p>
+            <p>
+              We look forward to working with you and helping you maintain a clean,
+              fresh, and welcoming environment!
+            </p>
+            <p>
+              Our team of experienced, licensed cleaners goes above and beyond to
+              ensure your space is not only spotless but also cared for as if it
+              were our own.
+            </p>
+            <p>
+              We take the time to understand your specific needs, so you can relax
+              knowing that we&apos;ll deliver a thorough, high-quality cleaning
+              every time. Your satisfaction is our priority, and we&apos;re
+              committed to making your experience with us seamless, stress-free,
+              and truly rewarding.
+            </p>
+          </div>
         </div>
 
         {/* Services Grid */}
