@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-01-28)
 
 **Core value:** Convert website visitors into cleaning service leads through clear calls-to-action and strong local SEO presence across Las Vegas Valley.
-**Current focus:** Phase 7 - Location Pages (COMPLETE)
+**Current focus:** Phase 8 - SEO & Technical (IN PROGRESS)
 
 ## Current Position
 
-Phase: 7 of 8 (Location Pages) - COMPLETE
-Plan: 2 of 2 executed (07-01, 07-02 complete)
-Status: Phase 7 complete, ready for Phase 8
-Last activity: 2026-01-29 - Completed 07-02-PLAN.md (Dynamic location pages)
+Phase: 8 of 8 (SEO & Technical) - IN PROGRESS
+Plan: 1 of 2 executed (08-01 complete)
+Status: Plan 08-01 complete, ready for 08-02
+Last activity: 2026-01-29 - Completed 08-01-PLAN.md (SEO metadata and sitemap)
 
-Progress: [█████████░] 93%
+Progress: [█████████░] 96%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 13
+- Total plans completed: 14
 - Average duration: ~4 min
-- Total execution time: ~0.8 hours
+- Total execution time: ~0.9 hours
 
 **By Phase:**
 
@@ -34,9 +34,10 @@ Progress: [█████████░] 93%
 | 05-service-pages | 2 | ~10 min | ~5 min |
 | 06-utility-pages | 2 | ~8 min | ~4 min |
 | 07-location-pages | 2 | ~8 min | ~4 min |
+| 08-seo-technical | 1 | ~4 min | ~4 min |
 
 **Recent Trend:**
-- Last 5 plans: 05-02, 06-02, 06-01, 07-01, 07-02
+- Last 5 plans: 06-01, 06-02, 07-01, 07-02, 08-01
 - Trend: Consistent execution pace
 
 *Updated after each plan completion*
@@ -75,6 +76,11 @@ Recent decisions affecting current work:
 - Location cards inline JSX, not separate component (07-01)
 - Client component for Google Maps iframe to prevent hydration mismatch (07-02)
 - dynamicParams = false enforces only pre-built routes for location pages (07-02)
+- MetadataRoute.Sitemap for dynamic sitemap generation (08-01)
+- MetadataRoute.Robots for dynamic robots.txt (08-01)
+- Sitemap priority levels: core=0.9-1.0, services=0.8, about/locations=0.7, utility=0.3 (08-01)
+- Location page titles use "Cleaning {location} NV" for brevity (08-01)
+- All pages except home have canonical URLs (08-01)
 
 ### Pending Todos
 
@@ -87,5 +93,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-29
-Stopped at: Completed 07-02-PLAN.md (Dynamic location pages)
+Stopped at: Completed 08-01-PLAN.md (SEO metadata and sitemap)
 Resume file: None
