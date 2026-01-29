@@ -79,10 +79,12 @@ Plans:
   3. User can navigate to /process and see step-by-step cleaning process
   4. User can navigate to /cleaning-tips and see categorized tips
   5. User can navigate to /faqs, expand accordion items, and FAQ schema validates
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: About section pages
+- [ ] 04-01-PLAN.md - About page with guarantees/testimonials, Why Choose Us page with service offerings
+- [ ] 04-02-PLAN.md - Process page with step-by-step timeline, Cleaning Tips page with categorized tips
+- [ ] 04-03-PLAN.md - FAQs page with Headless UI accordion and FAQPage schema
 
 ### Phase 5: Service Pages
 **Goal**: Service pages describe offerings with detailed checklists and proper schema
@@ -155,7 +157,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 1. Infrastructure | 1/1 | ✓ Complete | 2026-01-28 |
 | 2. Global Components | 2/2 | ✓ Complete | 2026-01-28 |
 | 3. Home Page | 1/1 | ✓ Complete | 2026-01-28 |
-| 4. About Section | 0/1 | Not started | - |
+| 4. About Section | 0/3 | Ready to execute | - |
 | 5. Service Pages | 0/2 | Not started | - |
 | 6. Utility Pages | 0/1 | Not started | - |
 | 7. Location Pages | 0/1 | Not started | - |
@@ -163,4 +165,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-28 — Phase 3 complete*
+*Last updated: 2026-01-29 — Phase 4 planned (3 plans)*
