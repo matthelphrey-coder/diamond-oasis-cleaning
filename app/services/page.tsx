@@ -1,5 +1,12 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import {
+  HomeIcon,
+  BuildingOfficeIcon,
+  SparklesIcon,
+  TruckIcon,
+  PlusCircleIcon,
+} from "@heroicons/react/24/outline";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { generateBreadcrumbSchema } from "@/lib/schema";
@@ -18,6 +25,14 @@ const breadcrumbs = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services" },
 ];
+
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  home: HomeIcon,
+  building: BuildingOfficeIcon,
+  sparkles: SparklesIcon,
+  truck: TruckIcon,
+  "plus-circle": PlusCircleIcon,
+};
 
 export default function ServicesPage() {
   return (
@@ -66,23 +81,44 @@ export default function ServicesPage() {
             Our Professional Cleaning Services
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.services.map((service) => (
-              <Link
-                key={service.id}
-                href={service.href}
-                className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
-              >
-                <h2 className="text-xl font-heading font-bold text-primary mb-3 group-hover:text-primary-light transition-colors">
-                  {service.name}
-                </h2>
-                <p className="text-text-secondary leading-relaxed">
-                  {service.description}
-                </p>
-                <div className="mt-4 text-secondary font-semibold group-hover:text-secondary-light transition-colors">
-                  Learn More &rarr;
-                </div>
-              </Link>
-            ))}
+            {services.services.map((service) => {
+              const IconComponent = iconMap[service.icon] || SparklesIcon;
+              return (
+                <Link
+                  key={service.id}
+                  href={service.href}
+                  className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border border-transparent hover:border-secondary/20"
+                >
+                  {/* Icon */}
+                  <div className="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mb-4 group-hover:bg-secondary/20 transition-colors">
+                    <IconComponent className="w-7 h-7 text-secondary" />
+                  </div>
+
+                  <h2 className="text-xl font-heading font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
+                    {service.name}
+                  </h2>
+                  <p className="text-text-secondary leading-relaxed">
+                    {service.description}
+                  </p>
+                  <div className="mt-4 flex items-center text-secondary font-semibold group-hover:text-secondary-light transition-colors">
+                    Learn More
+                    <svg
+                      className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
