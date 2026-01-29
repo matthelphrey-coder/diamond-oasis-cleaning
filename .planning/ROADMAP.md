@@ -48,11 +48,11 @@ Plans:
   3. Sticky CTA button appears on all pages and opens estimate modal when clicked
   4. Modal displays GHL form embed and can be closed
   5. Breadcrumbs render correctly on subpages (not on home)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Header and navigation component
-- [ ] 02-02: Footer, CTA, modal, breadcrumbs, and schema components
+- [ ] 02-01-PLAN.md - Header with responsive navigation (desktop dropdowns, mobile slide-out menu)
+- [ ] 02-02-PLAN.md - Footer, sticky CTA button, estimate modal, breadcrumbs, schema markup
 
 ### Phase 3: Home Page
 **Goal**: Home page converts visitors with clear value proposition and inline estimate form
@@ -163,4 +163,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-28 — Phase 1 complete*
+*Last updated: 2026-01-28 — Phase 2 planned*
