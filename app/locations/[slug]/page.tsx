@@ -31,9 +31,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Location Not Found" };
   }
 
+  // Keep title under 60 chars total (template adds " | Diamond Oasis Cleaning" = 26 chars)
+  // So base title must be under 34 chars
+  const title = `Cleaning ${location.displayName} NV`;
+
+  // Keep description 150-160 chars
+  const areas = location.serviceAreas.slice(0, 2).join(", ");
+  const description = `Professional house cleaning in ${location.displayName}, Las Vegas. Serving ${areas} and nearby areas. Licensed cleaners. Call ${location.phone} for free estimate!`;
+
   return {
-    title: `House Cleaning in ${location.displayName} Las Vegas | Diamond Oasis Cleaning`,
-    description: `Professional house cleaning services in ${location.displayName}, Las Vegas NV. Serving ${location.serviceAreas.slice(0, 3).join(", ")} and more. Licensed & insured cleaners. Call ${location.phone} for free estimate!`,
+    title,
+    description,
     alternates: {
       canonical: `/locations/${location.slug}`,
     },
