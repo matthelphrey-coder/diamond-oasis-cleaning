@@ -143,11 +143,11 @@ Plans:
   3. BreadcrumbList schema validates on all pages except home
   4. XML sitemap is accessible at /sitemap.xml and robots.txt at /robots.txt
   5. Mobile PageSpeed score > 90 and all breakpoints (375px, 768px, 1024px, 1440px) render correctly
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 08-01: Meta tags, schema validation, and sitemap/robots
-- [ ] 08-02: Image optimization, performance, and final QA
+- [ ] 08-01-PLAN.md — Sitemap/robots generation, metadata audit for all 24 pages
+- [ ] 08-02-PLAN.md — Hero image optimization, responsive verification, PageSpeed QA
 
 ## Progress
 
@@ -163,8 +163,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 6. Utility Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 7. Location Pages | 2/2 | ✓ Complete | 2026-01-29 |
-| 8. SEO & Technical | 0/2 | Not started | - |
+| 8. SEO & Technical | 0/2 | Ready | - |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 7 complete (locations hub + 8 dynamic location pages)*
+*Last updated: 2026-01-29 — Phase 8 plans created (SEO & Technical)*
