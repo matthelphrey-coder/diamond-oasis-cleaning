@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import ServiceChecklist from "@/components/services/ServiceChecklist";
@@ -127,22 +128,35 @@ export default function MoveInMoveOutCleaningPage() {
       {/* Make Move In or Move Out Cleaning Simple Section */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
-              Make Move In or Move Out Cleaning Simple!
-            </h2>
-            <p className="text-lg text-text-secondary leading-relaxed">
-              A move-in or move-out cleaning service is really important because
-              it ensures that the new space is fresh, clean, and free of dirt,
-              dust, and germs before you settle in or after you&apos;ve moved
-              out. For a move-in, it gives you peace of mind knowing the place
-              is sanitized and ready for you. For a move-out, it&apos;s
-              typically a requirement in leases to leave the property in good
-              condition for the next tenants or to get your security deposit
-              back. It saves time and energy, and helps maintain the
-              property&apos;s overall condition. Plus, it can make a great first
-              impression for whoever is moving in next!
-            </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
+                  Make Move In or Move Out Cleaning Simple!
+                </h2>
+                <p className="text-lg text-text-secondary leading-relaxed">
+                  A move-in or move-out cleaning service is really important because
+                  it ensures that the new space is fresh, clean, and free of dirt,
+                  dust, and germs before you settle in or after you&apos;ve moved
+                  out. For a move-in, it gives you peace of mind knowing the place
+                  is sanitized and ready for you. For a move-out, it&apos;s
+                  typically a requirement in leases to leave the property in good
+                  condition for the next tenants or to get your security deposit
+                  back. It saves time and energy, and helps maintain the
+                  property&apos;s overall condition. Plus, it can make a great first
+                  impression for whoever is moving in next!
+                </p>
+              </div>
+              <div className="relative h-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+                  alt="Empty clean apartment ready for move-in"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>

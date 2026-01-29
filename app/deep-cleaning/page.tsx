@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import ServiceChecklist from "@/components/services/ServiceChecklist";
@@ -125,21 +126,34 @@ export default function DeepCleaningPage() {
       {/* A Clean Home Section */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
-              A Clean Home is a Peace of Mind
-            </h2>
-            <p className="text-lg text-text-secondary leading-relaxed">
-              A clean home offers numerous benefits, including improved physical
-              and mental well-being. It reduces allergens, dust, and bacteria,
-              leading to better air quality and fewer health issues. A tidy
-              environment also promotes relaxation and reduces stress by
-              creating a calm, organized space. It can boost productivity,
-              enhance the aesthetic appeal of your home, and even improve sleep
-              quality. Plus, maintaining a clean home helps preserve the
-              condition of furniture and belongings, saving money in the long
-              run.
-            </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
+                  A Clean Home is a Peace of Mind
+                </h2>
+                <p className="text-lg text-text-secondary leading-relaxed">
+                  A clean home offers numerous benefits, including improved physical
+                  and mental well-being. It reduces allergens, dust, and bacteria,
+                  leading to better air quality and fewer health issues. A tidy
+                  environment also promotes relaxation and reduces stress by
+                  creating a calm, organized space. It can boost productivity,
+                  enhance the aesthetic appeal of your home, and even improve sleep
+                  quality. Plus, maintaining a clean home helps preserve the
+                  condition of furniture and belongings, saving money in the long
+                  run.
+                </p>
+              </div>
+              <div className="relative h-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                  alt="Professional deep cleaning of kitchen countertops"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>

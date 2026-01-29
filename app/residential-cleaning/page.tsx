@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import ServiceChecklist from "@/components/services/ServiceChecklist";
@@ -128,21 +129,34 @@ export default function ResidentialCleaningPage() {
       {/* A Clean Home Section */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
-              A Clean Home is a Peace of Mind
-            </h2>
-            <p className="text-lg text-text-secondary leading-relaxed">
-              Regular house cleaning offers a range of benefits, including a
-              healthier living environment by reducing dust, allergens, and
-              germs that can cause illness. It also helps maintain the
-              cleanliness and longevity of furniture and surfaces, preventing
-              the buildup of dirt and grime. Regular cleaning reduces clutter,
-              creating a more organized and calming space, which can improve
-              mental well-being. Plus, it saves time in the long run by avoiding
-              the need for intensive cleaning sessions and keeps your home
-              looking fresh and welcoming at all times.
-            </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
+                  A Clean Home is a Peace of Mind
+                </h2>
+                <p className="text-lg text-text-secondary leading-relaxed">
+                  Regular house cleaning offers a range of benefits, including a
+                  healthier living environment by reducing dust, allergens, and
+                  germs that can cause illness. It also helps maintain the
+                  cleanliness and longevity of furniture and surfaces, preventing
+                  the buildup of dirt and grime. Regular cleaning reduces clutter,
+                  creating a more organized and calming space, which can improve
+                  mental well-being. Plus, it saves time in the long run by avoiding
+                  the need for intensive cleaning sessions and keeps your home
+                  looking fresh and welcoming at all times.
+                </p>
+              </div>
+              <div className="relative h-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+                  alt="Clean modern living room with natural light"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>

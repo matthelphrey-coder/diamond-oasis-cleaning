@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { CheckIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
@@ -89,26 +90,39 @@ export default function AdditionalServicesPage() {
       {/* We Offer Additional Services Section */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
-              We Offer Additional Services
-            </h2>
-            <p className="text-lg text-text-secondary leading-relaxed">
-              There is always additional services and detailing that we need
-              around our home. Beyond our regular cleaning packages, we offer a
-              range of detailed cleaning services to give your home a fresh,
-              thorough touch. Our ceiling fan dusting service ensures that even
-              the highest corners of your home are free of dust, promoting
-              cleaner air quality. We also provide wall cleaning to remove
-              smudges, stains, and dust, restoring the fresh look of your
-              interiors. Our interior window cleaning leaves your windows
-              streak-free and sparkling, letting in more natural light and
-              enhancing the beauty of your space. For outdoor areas, we offer
-              patio dusting and sweeping, ensuring your exterior spaces are just
-              as tidy and inviting as your interior. These added services help
-              maintain every part of your home, leaving it looking and feeling
-              its best.
-            </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
+                  We Offer Additional Services
+                </h2>
+                <p className="text-lg text-text-secondary leading-relaxed">
+                  There is always additional services and detailing that we need
+                  around our home. Beyond our regular cleaning packages, we offer a
+                  range of detailed cleaning services to give your home a fresh,
+                  thorough touch. Our ceiling fan dusting service ensures that even
+                  the highest corners of your home are free of dust, promoting
+                  cleaner air quality. We also provide wall cleaning to remove
+                  smudges, stains, and dust, restoring the fresh look of your
+                  interiors. Our interior window cleaning leaves your windows
+                  streak-free and sparkling, letting in more natural light and
+                  enhancing the beauty of your space. For outdoor areas, we offer
+                  patio dusting and sweeping, ensuring your exterior spaces are just
+                  as tidy and inviting as your interior. These added services help
+                  maintain every part of your home, leaving it looking and feeling
+                  its best.
+                </p>
+              </div>
+              <div className="relative h-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80"
+                  alt="Organized cleaning supplies and equipment"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
