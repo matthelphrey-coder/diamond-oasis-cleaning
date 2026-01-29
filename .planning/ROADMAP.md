@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
 - [x] **Phase 5: Service Pages** - All service pages with checklists and schema
 - [x] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
-- [ ] **Phase 7: Location Pages** - Locations hub and 8 individual location pages
+- [x] **Phase 7: Location Pages** - Locations hub and 8 individual location pages
 - [ ] **Phase 8: SEO & Technical** - Meta tags, schema validation, performance optimization
 
 ## Phase Details
@@ -130,8 +130,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 07-01-PLAN.md - Locations hub page with grid, LocalBusiness schema generator
-- [ ] 07-02-PLAN.md - Dynamic location page template with GoogleMapEmbed component
+- [x] 07-01-PLAN.md - Locations hub page with grid, LocalBusiness schema generator (Wave 1)
+- [x] 07-02-PLAN.md - Dynamic location page template with GoogleMapEmbed component (Wave 1)
 
 ### Phase 8: SEO & Technical
 **Goal**: Site is optimized for search engines and performance
@@ -162,9 +162,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 4. About Section | 3/3 | ✓ Complete | 2026-01-29 |
 | 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 6. Utility Pages | 2/2 | ✓ Complete | 2026-01-29 |
-| 7. Location Pages | 0/2 | Not started | - |
+| 7. Location Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 8. SEO & Technical | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 7 planned (2 plans in 1 wave)*
+*Last updated: 2026-01-29 — Phase 7 complete (locations hub + 8 dynamic location pages)*
