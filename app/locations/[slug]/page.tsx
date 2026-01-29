@@ -97,11 +97,11 @@ export default async function LocationPage({ params }: Props) {
       <section className="bg-primary text-white py-16 lg:py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl lg:text-5xl font-heading font-bold mb-4">
-            House Cleaning in {location.displayName}, Las Vegas
+            House Cleaning in {location.displayName}
           </h1>
           <p className="text-lg lg:text-xl text-white/90 max-w-3xl mx-auto mb-8">
-            Diamond Oasis Cleaning is proud to serve the {location.displayName}{" "}
-            area with professional house cleaning services.
+            Diamond Oasis Cleaning is proud to serve {location.displayName}{" "}
+            with professional house cleaning services.
           </p>
           <CtaButton className="inline-block bg-secondary hover:bg-secondary-light text-white font-bold py-4 px-8 rounded-lg transition-colors duration-300 shadow-lg text-lg">
             Get Your FREE Estimate
