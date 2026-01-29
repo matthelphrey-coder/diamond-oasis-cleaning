@@ -111,10 +111,11 @@ Plans:
   2. User can navigate to /booking and interact with BookingKoala embed
   3. User can navigate to /privacy-policy and view privacy policy content
   4. User can navigate to /terms-and-conditions and view terms content
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 06-01: Contact, booking, privacy, and terms pages
+- [ ] 06-01-PLAN.md - Contact Us page with GHL form, Booking page with BookingKoala embed
+- [ ] 06-02-PLAN.md - Privacy Policy page, Terms and Conditions page
 
 ### Phase 7: Location Pages
 **Goal**: Location pages enable local SEO presence across 8 Las Vegas Valley areas
@@ -159,10 +160,10 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 3. Home Page | 1/1 | ✓ Complete | 2026-01-28 |
 | 4. About Section | 3/3 | ✓ Complete | 2026-01-29 |
 | 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
-| 6. Utility Pages | 0/1 | Not started | - |
+| 6. Utility Pages | 0/2 | Not started | - |
 | 7. Location Pages | 0/1 | Not started | - |
 | 8. SEO & Technical | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 5 complete (2/2 plans)*
+*Last updated: 2026-01-29 — Phase 6 planned (2 plans)*
