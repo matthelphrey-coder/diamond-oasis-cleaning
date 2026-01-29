@@ -13,7 +13,7 @@ This roadmap delivers a complete Next.js website rebuild for Diamond Oasis Clean
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Infrastructure** - Project setup, data files, Tailwind configuration
-- [ ] **Phase 2: Global Components** - Header, footer, sticky CTA, modal, breadcrumbs, schema
+- [x] **Phase 2: Global Components** - Header, footer, sticky CTA, modal, breadcrumbs, schema
 - [ ] **Phase 3: Home Page** - Hero with inline form, services overview, testimonials
 - [ ] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
 - [ ] **Phase 5: Service Pages** - All service pages with checklists and schema
@@ -51,8 +51,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md - Header with responsive navigation (desktop dropdowns, mobile slide-out menu)
-- [ ] 02-02-PLAN.md - Footer, sticky CTA button, estimate modal, breadcrumbs, schema markup
+- [x] 02-01-PLAN.md - Header with responsive navigation (desktop dropdowns, mobile slide-out menu)
+- [x] 02-02-PLAN.md - Footer, sticky CTA button, estimate modal, breadcrumbs, schema markup
 
 ### Phase 3: Home Page
 **Goal**: Home page converts visitors with clear value proposition and inline estimate form
@@ -153,7 +153,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Infrastructure | 1/1 | ✓ Complete | 2026-01-28 |
-| 2. Global Components | 0/2 | Not started | - |
+| 2. Global Components | 2/2 | ✓ Complete | 2026-01-28 |
 | 3. Home Page | 0/1 | Not started | - |
 | 4. About Section | 0/1 | Not started | - |
 | 5. Service Pages | 0/2 | Not started | - |
@@ -163,4 +163,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-28 — Phase 2 planned*
+*Last updated: 2026-01-28 — Phase 2 complete*
