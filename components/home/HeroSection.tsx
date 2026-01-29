@@ -1,18 +1,21 @@
 "use client";
 
+import Image from "next/image";
 import InlineEstimateForm from "./InlineEstimateForm";
 
 export default function HeroSection() {
   return (
-    <section
-      className="relative min-h-[800px] lg:min-h-[700px] flex items-center"
-      style={{
-        backgroundImage: "url('/images/hero-cleaning.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <section className="relative min-h-[800px] lg:min-h-[700px] flex items-center">
+      {/* Optimized hero image with preload for LCP */}
+      <Image
+        src="/images/hero-cleaning.jpg"
+        alt="Professional house cleaning service in Las Vegas"
+        fill
+        priority={true}
+        className="object-cover object-center"
+        sizes="100vw"
+        quality={85}
+      />
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/50" />
 
