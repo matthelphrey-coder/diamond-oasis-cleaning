@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Global Components** - Header, footer, sticky CTA, modal, breadcrumbs, schema
 - [x] **Phase 3: Home Page** - Hero with inline form, services overview, testimonials
 - [x] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
-- [ ] **Phase 5: Service Pages** - All service pages with checklists and schema
+- [x] **Phase 5: Service Pages** - All service pages with checklists and schema
 - [ ] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
 - [ ] **Phase 7: Location Pages** - Locations hub and 8 individual location pages
 - [ ] **Phase 8: SEO & Technical** - Meta tags, schema validation, performance optimization
@@ -99,8 +99,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01-PLAN.md - Services overview hub, residential cleaning, commercial cleaning pages with schema
-- [ ] 05-02-PLAN.md - Deep cleaning, move-in/move-out cleaning, additional services pages
+- [x] 05-01-PLAN.md - Services overview hub, residential cleaning, commercial cleaning pages with schema
+- [x] 05-02-PLAN.md - Deep cleaning, move-in/move-out cleaning, additional services pages
 
 ### Phase 6: Utility Pages
 **Goal**: Utility pages enable contact, booking, and legal compliance
@@ -158,11 +158,11 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 2. Global Components | 2/2 | ✓ Complete | 2026-01-28 |
 | 3. Home Page | 1/1 | ✓ Complete | 2026-01-28 |
 | 4. About Section | 3/3 | ✓ Complete | 2026-01-29 |
-| 5. Service Pages | 0/2 | Not started | - |
+| 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 6. Utility Pages | 0/1 | Not started | - |
 | 7. Location Pages | 0/1 | Not started | - |
 | 8. SEO & Technical | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 5 plans created (2 plans)*
+*Last updated: 2026-01-29 — Phase 5 complete (2/2 plans)*
