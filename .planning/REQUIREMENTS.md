@@ -44,10 +44,10 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Service Pages
 
 - [ ] **SERV-01**: Services overview page (/services) with service grid
-- [ ] **SERV-02**: Residential Cleaning page (/residential-cleaning369987) with checklist
+- [ ] **SERV-02**: Residential Cleaning page (/residential-cleaning) with checklist
 - [ ] **SERV-03**: Commercial Cleaning page (/commercial-cleaning) - new page
 - [ ] **SERV-04**: Deep Cleaning page (/deep-cleaning) with checklist
-- [ ] **SERV-05**: Move-In/Move-Out page (/move-in-move-out-cleaning665245) with checklist
+- [ ] **SERV-05**: Move-In/Move-Out page (/move-in-move-out-cleaning) with checklist
 - [ ] **SERV-06**: Additional Services page (/additional-services) with service list and exclusions
 - [ ] **SERV-07**: Service schema markup on each service page
 

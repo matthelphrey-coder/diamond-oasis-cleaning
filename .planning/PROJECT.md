@@ -16,7 +16,7 @@ Convert website visitors into cleaning service leads through clear calls-to-acti
 
 ### Active
 
-- [ ] All existing pages migrated with exact same URLs preserved
+- [ ] All existing pages migrated with clean URLs (numbers removed from service page slugs)
 - [ ] Schema markup (Organization, Service, LocalBusiness, FAQ, Breadcrumb) validates on all pages
 - [ ] Mobile PageSpeed score > 90
 - [ ] Sticky "Get Free Estimate" CTA visible on every page
@@ -47,7 +47,7 @@ Convert website visitors into cleaning service leads through clear calls-to-acti
 
 **Content source:** All page content, URLs, embed codes, location data, and schema requirements documented in FRAMEWORK.md
 
-**URL preservation critical:** Several URLs have unusual suffixes (e.g., `/residential-cleaning369987`, `/move-in-move-out-cleaning665245`) that must be maintained exactly for SEO continuity.
+**Clean URLs:** Service pages use clean slugs (`/residential-cleaning`, `/move-in-move-out-cleaning`) instead of legacy URLs with numbers.
 
 **Third-party integrations:**
 - GHL form embed for lead capture (modal + inline)
@@ -66,7 +66,7 @@ Convert website visitors into cleaning service leads through clear calls-to-acti
 
 ## Constraints
 
-- **URL structure**: Must preserve all existing URLs exactly — SEO equity at stake
+- **URL structure**: Use clean semantic URLs — fresh start preferred over preserving legacy numbered slugs
 - **Embeds**: Must use provided GHL and BookingKoala embed codes — business workflow depends on them
 - **Images**: Use Unsplash stock images until brand photos provided
 - **No backend**: Static site generation only — no database or server-side logic
@@ -81,6 +81,7 @@ Convert website visitors into cleaning service leads through clear calls-to-acti
 | JSON data files | Simple maintenance, no database overhead, easy for Claude Code updates | — Pending |
 | Modal + inline form | Home page gets inline form for immediate conversion, modal available everywhere else | — Pending |
 | Stock images initially | No brand photos available, Unsplash provides quality placeholders | — Pending |
+| Clean URLs over legacy | Use /residential-cleaning instead of /residential-cleaning369987 for better UX and simpler maintenance | — Pending |
 
 ---
-*Last updated: 2026-01-28 after initialization*
+*Last updated: 2026-01-28 after roadmap creation*
