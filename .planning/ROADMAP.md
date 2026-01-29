@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 3: Home Page** - Hero with inline form, services overview, testimonials
 - [x] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
 - [x] **Phase 5: Service Pages** - All service pages with checklists and schema
-- [ ] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
+- [x] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
 - [ ] **Phase 7: Location Pages** - Locations hub and 8 individual location pages
 - [ ] **Phase 8: SEO & Technical** - Meta tags, schema validation, performance optimization
 
@@ -114,8 +114,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 06-01-PLAN.md - Contact Us page with GHL form, Booking page with BookingKoala embed
-- [ ] 06-02-PLAN.md - Privacy Policy page, Terms and Conditions page
+- [x] 06-01-PLAN.md - Contact Us page with GHL form, Booking page with BookingKoala embed (Wave 1)
+- [x] 06-02-PLAN.md - Privacy Policy page, Terms and Conditions page (Wave 1)
 
 ### Phase 7: Location Pages
 **Goal**: Location pages enable local SEO presence across 8 Las Vegas Valley areas
@@ -160,10 +160,10 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 3. Home Page | 1/1 | ✓ Complete | 2026-01-28 |
 | 4. About Section | 3/3 | ✓ Complete | 2026-01-29 |
 | 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
-| 6. Utility Pages | 0/2 | Not started | - |
+| 6. Utility Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 7. Location Pages | 0/1 | Not started | - |
 | 8. SEO & Technical | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 6 planned (2 plans)*
+*Last updated: 2026-01-29 — Phase 6 complete (4 utility pages)*
