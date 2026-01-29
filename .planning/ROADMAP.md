@@ -127,10 +127,11 @@ Plans:
   3. Each location page displays Google Maps embed, contact info, and service areas
   4. LocalBusiness schema validates on each location page
   5. All 8 location pages render without errors
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 07-01: Locations hub and dynamic location pages
+- [ ] 07-01-PLAN.md - Locations hub page with grid, LocalBusiness schema generator
+- [ ] 07-02-PLAN.md - Dynamic location page template with GoogleMapEmbed component
 
 ### Phase 8: SEO & Technical
 **Goal**: Site is optimized for search engines and performance
@@ -161,9 +162,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 4. About Section | 3/3 | ✓ Complete | 2026-01-29 |
 | 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 6. Utility Pages | 2/2 | ✓ Complete | 2026-01-29 |
-| 7. Location Pages | 0/1 | Not started | - |
+| 7. Location Pages | 0/2 | Not started | - |
 | 8. SEO & Technical | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 6 complete (4 utility pages)*
+*Last updated: 2026-01-29 — Phase 7 planned (2 plans in 1 wave)*
