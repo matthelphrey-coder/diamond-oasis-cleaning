@@ -93,3 +93,39 @@ export function generateFAQSchema(faqs: FAQItem[]) {
     })),
   };
 }
+
+/**
+ * Service schema input interface for generating Service structured data
+ */
+export interface ServiceSchemaInput {
+  name: string;
+  serviceType: string;
+  description: string;
+  url?: string;
+}
+
+/**
+ * Generate Service schema for service pages
+ * https://schema.org/Service
+ */
+export function generateServiceSchema(input: ServiceSchemaInput) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: input.name,
+    serviceType: input.serviceType,
+    description: input.description,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Diamond Oasis Cleaning",
+      "@id": `${SITE_URL}/#organization`,
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Las Vegas",
+    },
+    url:
+      input.url ||
+      `${SITE_URL}/${input.name.toLowerCase().replace(/\s+/g, "-")}`,
+  };
+}
