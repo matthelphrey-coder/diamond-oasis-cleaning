@@ -146,8 +146,8 @@ export default function DeepCleaningPage() {
               </div>
               <div className="relative h-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
-                  alt="Professional deep cleaning of kitchen countertops"
+                  src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=800&q=80"
+                  alt="Deep cleaning a sparkling clean bathroom"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

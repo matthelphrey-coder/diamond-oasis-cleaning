@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   HomeIcon,
   BuildingOfficeIcon,
@@ -61,15 +62,32 @@ export default function ServicesPage() {
       </div>
 
       {/* Intro Section */}
-      <section className="py-12 bg-white">
+      <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg text-text-secondary leading-relaxed">
-              A clean home promotes relaxation, reduces stress, and boosts
-              overall well-being. Regular cleaning helps prevent allergens,
-              dust, and bacteria, ensuring a healthier living space for you and
-              your family.
-            </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="relative h-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
+                  alt="Professional cleaning team at work"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+              <div>
+                <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
+                  Professional Cleaning You Can Trust
+                </h2>
+                <p className="text-lg text-text-secondary leading-relaxed">
+                  A clean home promotes relaxation, reduces stress, and boosts
+                  overall well-being. Regular cleaning helps prevent allergens,
+                  dust, and bacteria, ensuring a healthier living space for you and
+                  your family. Our professional team is trained to deliver
+                  exceptional results every time.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
