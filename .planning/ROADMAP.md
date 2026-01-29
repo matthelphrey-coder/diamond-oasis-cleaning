@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Infrastructure** - Project setup, data files, Tailwind configuration
 - [x] **Phase 2: Global Components** - Header, footer, sticky CTA, modal, breadcrumbs, schema
-- [ ] **Phase 3: Home Page** - Hero with inline form, services overview, testimonials
+- [x] **Phase 3: Home Page** - Hero with inline form, services overview, testimonials
 - [ ] **Phase 4: About Section** - About, Why Choose Us, Process, Tips, FAQs pages
 - [ ] **Phase 5: Service Pages** - All service pages with checklists and schema
 - [ ] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
@@ -67,7 +67,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 03-01-PLAN.md - Hero section, inline form, services overview, booking steps, value propositions, testimonials
+- [x] 03-01-PLAN.md - Hero section, inline form, services overview, booking steps, value propositions, testimonials
 
 ### Phase 4: About Section
 **Goal**: About pages establish trust and answer common questions
@@ -154,7 +154,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 |-------|----------------|--------|-----------|
 | 1. Infrastructure | 1/1 | ✓ Complete | 2026-01-28 |
 | 2. Global Components | 2/2 | ✓ Complete | 2026-01-28 |
-| 3. Home Page | 0/1 | Planned | - |
+| 3. Home Page | 1/1 | ✓ Complete | 2026-01-28 |
 | 4. About Section | 0/1 | Not started | - |
 | 5. Service Pages | 0/2 | Not started | - |
 | 6. Utility Pages | 0/1 | Not started | - |
@@ -163,4 +163,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-28 — Phase 3 planned*
+*Last updated: 2026-01-28 — Phase 3 complete*
