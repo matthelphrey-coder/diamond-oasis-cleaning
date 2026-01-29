@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-01-28)
 
 **Core value:** Convert website visitors into cleaning service leads through clear calls-to-action and strong local SEO presence across Las Vegas Valley.
-**Current focus:** Phase 3 - Home Page
+**Current focus:** Phase 4 - About Pages
 
 ## Current Position
 
-Phase: 3 of 8 (Home Page)
-Plan: 0 of 1 in current phase
-Status: Ready to plan
-Last activity: 2026-01-28 - Phase 2 Global Components complete and verified
+Phase: 3 of 8 (Home Page) - COMPLETE
+Plan: 1 of 1 in current phase
+Status: Phase complete
+Last activity: 2026-01-28 - Completed 03-01-PLAN.md (Home Page)
 
-Progress: [██░░░░░░░░] 25%
+Progress: [███░░░░░░░] 37%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: ~6 min
-- Total execution time: ~0.3 hours
+- Total plans completed: 4
+- Average duration: ~5 min
+- Total execution time: ~0.35 hours
 
 **By Phase:**
 
@@ -29,9 +29,10 @@ Progress: [██░░░░░░░░] 25%
 |-------|-------|-------|----------|
 | 01-infrastructure | 1 | 6 min | 6 min |
 | 02-global-components | 2 | ~12 min | ~6 min |
+| 03-home-page | 1 | 3 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01, 02-01, 02-02
+- Last 5 plans: 01-01, 02-01, 02-02, 03-01
 - Trend: Consistent execution pace
 
 *Updated after each plan completion*
@@ -50,6 +51,9 @@ Recent decisions affecting current work:
 - Tailwind v4 CSS-based theme configuration via @theme block (01-01)
 - Headless UI for accessible dropdowns and modals (02-01, 02-02)
 - Z-index scale: header z-40, mobile menu z-50, modal z-60/70 (02-01, 02-02)
+- InlineEstimateForm as separate client component for reuse (03-01)
+- Hero image preloaded with priority={true} for LCP (03-01)
+- Server components for static sections, client for forms (03-01)
 
 ### Pending Todos
 
@@ -62,5 +66,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-28
-Stopped at: Phase 2 complete, ready for Phase 3 planning
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None
