@@ -19,7 +19,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 5: Service Pages** - All service pages with checklists and schema
 - [x] **Phase 6: Utility Pages** - Contact, booking, privacy, terms pages
 - [x] **Phase 7: Location Pages** - Locations hub and 8 individual location pages
-- [ ] **Phase 8: SEO & Technical** - Meta tags, schema validation, performance optimization
+- [x] **Phase 8: SEO & Technical** - Meta tags, schema validation, performance optimization
 
 ## Phase Details
 
@@ -146,8 +146,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 08-01-PLAN.md — Sitemap/robots generation, metadata audit for all 24 pages
-- [ ] 08-02-PLAN.md — Hero image optimization, responsive verification, PageSpeed QA
+- [x] 08-01-PLAN.md — Sitemap/robots generation, metadata audit for all 24 pages
+- [x] 08-02-PLAN.md — Hero image optimization, responsive verification, PageSpeed QA
 
 ## Progress
 
@@ -163,8 +163,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 5. Service Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 6. Utility Pages | 2/2 | ✓ Complete | 2026-01-29 |
 | 7. Location Pages | 2/2 | ✓ Complete | 2026-01-29 |
-| 8. SEO & Technical | 0/2 | Ready | - |
+| 8. SEO & Technical | 2/2 | ✓ Complete | 2026-01-29 |
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 8 plans created (SEO & Technical)*
+*Last updated: 2026-01-29 — Phase 8 complete (SEO & Technical)*
