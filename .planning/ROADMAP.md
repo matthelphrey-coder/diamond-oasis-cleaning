@@ -96,11 +96,11 @@ Plans:
   3. User can navigate to /commercial-cleaning (new page not on current site)
   4. User can navigate to /deep-cleaning and /move-in-move-out-cleaning with checklists
   5. Service schema validates on each service page
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: Services overview and residential/commercial pages
-- [ ] 05-02: Deep cleaning, move-in/move-out, and additional services pages
+- [ ] 05-01-PLAN.md - Services overview hub, residential cleaning, commercial cleaning pages with schema
+- [ ] 05-02-PLAN.md - Deep cleaning, move-in/move-out cleaning, additional services pages
 
 ### Phase 6: Utility Pages
 **Goal**: Utility pages enable contact, booking, and legal compliance
@@ -165,4 +165,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-01-28*
-*Last updated: 2026-01-29 — Phase 4 complete (3/3 plans)*
+*Last updated: 2026-01-29 — Phase 5 plans created (2 plans)*
