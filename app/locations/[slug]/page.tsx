@@ -4,12 +4,19 @@ import Link from "next/link";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import GoogleMapEmbed from "@/components/locations/GoogleMapEmbed";
+import CtaButton from "@/components/ui/CtaButton";
 import {
   generateBreadcrumbSchema,
   generateLocalBusinessSchema,
 } from "@/lib/schema";
 import locations from "@/data/locations.json";
 import services from "@/data/services.json";
+import {
+  ShieldCheckIcon,
+  CheckBadgeIcon,
+  StarIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/solid";
 
 export const dynamicParams = false; // Only pre-built routes
 
@@ -33,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // Keep title under 60 chars total (template adds " | Diamond Oasis Cleaning" = 26 chars)
   // So base title must be under 34 chars
-  const title = `Cleaning ${location.displayName} NV`;
+  const title = `House Cleaning in ${location.displayName} NV`;
 
   // Keep description 150-160 chars
   const areas = location.serviceAreas.slice(0, 2).join(", ");
@@ -47,6 +54,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
+
+const trustBadges = [
+  {
+    icon: ShieldCheckIcon,
+    title: "Licensed & Bonded",
+  },
+  {
+    icon: CheckBadgeIcon,
+    title: "Background Checked",
+  },
+  {
+    icon: StarIcon,
+    title: "100% Satisfaction",
+  },
+  {
+    icon: MapPinIcon,
+    title: "Locally Owned",
+  },
+];
 
 export default async function LocationPage({ params }: Props) {
   const { slug } = await params;
@@ -73,10 +99,13 @@ export default async function LocationPage({ params }: Props) {
           <h1 className="text-4xl lg:text-5xl font-heading font-bold mb-4">
             House Cleaning in {location.displayName}, Las Vegas
           </h1>
-          <p className="text-lg lg:text-xl text-white/90 max-w-3xl mx-auto">
+          <p className="text-lg lg:text-xl text-white/90 max-w-3xl mx-auto mb-8">
             Diamond Oasis Cleaning is proud to serve the {location.displayName}{" "}
             area with professional house cleaning services.
           </p>
+          <CtaButton className="inline-block bg-secondary hover:bg-secondary-light text-white font-bold py-4 px-8 rounded-lg transition-colors duration-300 shadow-lg text-lg">
+            Get Your FREE Estimate
+          </CtaButton>
         </div>
       </section>
 
@@ -120,6 +149,23 @@ export default async function LocationPage({ params }: Props) {
                   >
                     {location.email}
                   </a>
+                </div>
+              </div>
+
+              {/* Trust Badges */}
+              <div className="mt-8 pt-6 border-t border-gray-200">
+                <div className="grid grid-cols-2 gap-4">
+                  {trustBadges.map((badge) => {
+                    const IconComponent = badge.icon;
+                    return (
+                      <div key={badge.title} className="flex items-center gap-2">
+                        <IconComponent className="w-5 h-5 text-secondary flex-shrink-0" />
+                        <span className="text-sm font-medium text-text-secondary">
+                          {badge.title}
+                        </span>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>
@@ -186,18 +232,15 @@ export default async function LocationPage({ params }: Props) {
       <section className="py-16 lg:py-20 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-heading font-bold text-white mb-4">
-            Ready for a Sparkling Clean Home?
+            Ready for a Sparkling Clean Home in {location.displayName}?
           </h2>
           <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             Let our professional cleaning team transform your{" "}
             {location.displayName} home. Contact us today for a free estimate.
           </p>
-          <Link
-            href="/contact-us"
-            className="inline-block bg-secondary hover:bg-secondary-light text-white font-bold py-4 px-8 rounded-lg transition-colors duration-300 shadow-lg"
-          >
+          <CtaButton className="inline-block bg-secondary hover:bg-secondary-light text-white font-bold py-4 px-8 rounded-lg transition-colors duration-300 shadow-lg">
             Get Your Free Estimate
-          </Link>
+          </CtaButton>
         </div>
       </section>
     </>
