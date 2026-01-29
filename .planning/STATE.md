@@ -5,21 +5,21 @@
 See: .planning/PROJECT.md (updated 2026-01-28)
 
 **Core value:** Convert website visitors into cleaning service leads through clear calls-to-action and strong local SEO presence across Las Vegas Valley.
-**Current focus:** Phase 6 - Utility Pages (IN PROGRESS - 06-02 complete)
+**Current focus:** Phase 6 - Utility Pages (COMPLETE)
 
 ## Current Position
 
-Phase: 6 of 8 (Utility Pages) - IN PROGRESS
-Plan: 1 of 2 executed (06-02 complete, 06-01 pending)
-Status: Executing Phase 6
-Last activity: 2026-01-29 - Completed 06-02-PLAN.md (Privacy Policy and Terms pages)
+Phase: 6 of 8 (Utility Pages) - COMPLETE
+Plan: 2 of 2 executed (06-01, 06-02 complete)
+Status: Phase 6 complete, ready for Phase 7
+Last activity: 2026-01-29 - Completed 06-01-PLAN.md (Contact Us and Booking pages)
 
-Progress: [████████░░] 77%
+Progress: [████████░░] 85%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
+- Total plans completed: 11
 - Average duration: ~4 min
 - Total execution time: ~0.7 hours
 
@@ -32,10 +32,10 @@ Progress: [████████░░] 77%
 | 03-home-page | 1 | 3 min | 3 min |
 | 04-about-section | 3 | ~10 min | ~3 min |
 | 05-service-pages | 2 | ~10 min | ~5 min |
-| 06-utility-pages | 1 | 4 min | 4 min |
+| 06-utility-pages | 2 | ~8 min | ~4 min |
 
 **Recent Trend:**
-- Last 5 plans: 04-02, 04-03, 05-01, 05-02, 06-02
+- Last 5 plans: 04-03, 05-01, 05-02, 06-02, 06-01
 - Trend: Consistent execution pace
 
 *Updated after each plan completion*
@@ -68,6 +68,9 @@ Recent decisions affecting current work:
 - Unique intro content for similar service pages to prevent SEO duplicate content (05-02)
 - Legal prose pages use max-w-3xl, space-y-6 for readability (06-02)
 - Consistent about page pattern for legal pages: hero, breadcrumbs, content container (06-02)
+- Server component pages with client component for iframe embeds (06-01)
+- Separate ContactForm component for GHL iframe reusability (06-01)
+- 3000px iframe height for BookingKoala to prevent cutoff (06-01)
 
 ### Pending Todos
 
@@ -80,5 +83,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-29
-Stopped at: Completed 06-02-PLAN.md (Privacy Policy and Terms pages)
+Stopped at: Completed 06-01-PLAN.md (Contact Us and Booking pages)
 Resume file: None
