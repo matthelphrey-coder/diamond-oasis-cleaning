@@ -129,3 +129,68 @@ export function generateServiceSchema(input: ServiceSchemaInput) {
       `${SITE_URL}/${input.name.toLowerCase().replace(/\s+/g, "-")}`,
   };
 }
+
+/**
+ * Location data interface for LocalBusiness schema generation
+ */
+export interface LocationData {
+  slug: string;
+  name: string;
+  displayName: string;
+  street: string;
+  city: string;
+  state: string;
+  zip: string;
+  phone: string;
+  email: string;
+  coordinates: { lat: number; lng: number };
+  serviceAreas: string[];
+}
+
+/**
+ * Generate LocalBusiness schema for location pages
+ * https://developers.google.com/search/docs/appearance/structured-data/local-business
+ */
+export function generateLocalBusinessSchema(location: LocationData) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": `${SITE_URL}/locations/${location.slug}`,
+    name: location.name,
+    image: `${SITE_URL}/images/logo.png`,
+    url: `${SITE_URL}/locations/${location.slug}`,
+    telephone: location.phone,
+    email: location.email,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: location.street,
+      addressLocality: location.city,
+      addressRegion: location.state,
+      postalCode: location.zip,
+      addressCountry: "US",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: location.coordinates.lat,
+      longitude: location.coordinates.lng,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
+      opens: "08:00",
+      closes: "18:00",
+    },
+    priceRange: "$$",
+    areaServed: location.serviceAreas.map((area) => ({
+      "@type": "City",
+      name: area,
+    })),
+  };
+}
