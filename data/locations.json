@@ -22,17 +22,17 @@
       "slug": "las-vegas-east",
       "name": "Diamond Oasis Cleaning",
       "displayName": "East Las Vegas",
-      "street": "5474 Stephanie St",
-      "city": "Las Vegas",
+      "street": "715 Mall Ring Cir",
+      "city": "Henderson",
       "state": "NV",
-      "zip": "89122",
+      "zip": "89014",
       "phone": "(702) 560-1680",
       "phoneLink": "tel:+17025601680",
       "email": "support@diamondoasiscleaning.com",
       "facebook": "#",
-      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36476.28451044849!2d-115.04809034607668!3d36.0915675149068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d10065d0df35%3A0x9dc5ac7ec14b7381!2sDiamond%20Oasis%20Cleaning!5e0!3m2!1sen!2sus!4v1769208552964!5m2!1sen!2sus\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.9879539806243!2d-115.04567109999999!3d36.0693979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d1c436737c07%3A0xaebfb98e89766e65!2sDiamond%20Oasis%20Cleaning!5e0!3m2!1sen!2sus!4v1770072225860!5m2!1sen!2sus\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "serviceAreas": ["Sunrise Manor", "Whitney", "Boulder Highway", "Sam Boyd", "Paradise"],
-      "coordinates": { "lat": 36.0915675, "lng": -115.0480903 }
+      "coordinates": { "lat": 36.0693979, "lng": -115.0456711 }
     },
     {
       "id": "las-vegas-west",
