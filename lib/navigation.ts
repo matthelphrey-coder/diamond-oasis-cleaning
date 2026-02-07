@@ -19,6 +19,7 @@ export const navigation: NavItem[] = [
       { name: "Our Process", href: "/process" },
       { name: "Cleaning Tips", href: "/cleaning-tips" },
       { name: "FAQ's", href: "/faqs" },
+      { name: "Join Our Team", href: "/survey" },
     ],
   },
   { name: "Contact Us", href: "/contact-us" },
